@@ -8,8 +8,7 @@
 
 ##*ご案内*
 
-###■このアプリは[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)で開催しているハンズオンセミナーの教材として作成しました。資料を見て独学でもアプリ作成可能はですが、細かいコードの説明などは書いていませんのでぜひ[セミナー（無料）](https://ncmb.doorkeeper.jp/)にご参加ください。
-
+###■このアプリは[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)で開催しているハンズオンセミナーの教材として作成しました。資料に沿って進めていただければ、アプリ作成が可能となっておりますが、細かいコードの説明は書かれていませんので、ぜひ[セミナー（無料）](https://ncmb.doorkeeper.jp/)にご参加ください。
 ##*概要*
 
 ###■[Monaca](https://ja.monaca.io/)を用いてアプリを作成します
