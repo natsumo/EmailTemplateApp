@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="components/loader.js"></script>
+    <!-- (1) ★ JavaScriptSDKの読み込み -->
+    <!--↓この間に記入↓-->
+    
+    <!--↑この間に記入↑-->
+    <script src="js/template.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/cssua.min.js"></script>
+</head>
+<body>
+    <!-- (10) ★ ログインページ -->
+    <!--↓この間に記入↓-->
+    
+    <!--↑この間に記入↑-->
+    
+    <!-- (11) ★ 新規登録ページ -->
+    <!--↓この間に記入↓-->
+    
+    <!--↑この間に記入↑-->
+    
+    <!-- トップ（一覧）ページ -->
+    <div data-role="page" id="TopPage">
+        <header data-role="header" data-position="fixed" data-theme="c">
+            <!-- 更新ボタンを設置 -->
+            <a data-icon="refresh" class="ui-btn-left" onclick="initTopPage()">更新</a>
+            <h1>テンプレート一覧</h1>
+            <a href="#AddPage" data-icon="plus" class="ui-btn-right">追加</a>
+        </header>
+        
+        <section data-role="content">
+            <ul id="TopListView" data-role="listview" data-split-icon="delete">
+            </ul>
+        </section>
+        <footer data-role="footer" data-position="fixed" data-theme="c">
+            <h1></h1>
+            <!--(12) ★ ログアウトボタン-->
+            <!--↓この間に記入↓-->
+        	
+    		<!--↑この間に記入↑-->
+
+        </footer>
+    </div>
+
+    <!-- テンプレート追加ページ -->
+    <div data-role="page" id="AddPage">
+        <header data-role="header" data-position="fixed" data-theme="c">
+            <a href="#TopPage" data-icon="back" class="ui-btn-left">戻る</a>
+            <h1>テンプレートの追加</h1>
+        </header>
+        <section data-role="content">
+            <label for="To">宛先:</label>
+            <textarea id="To"></textarea>
+            <label for="Title">件名:</label>
+            <textarea id="Title"></textarea>
+            <label for="Message">本文:</label>
+            <textarea id="Message"></textarea>
+            <a data-role="button" data-icon="check" id="SaveBtn">保存</a>
+        </section>
+    </div>
+
+    <!-- テンプレート詳細ページ -->
+    <div data-role="page" id="ShowPage">
+        <header data-role="header" data-position="fixed" data-theme="c">
+            <a href="#TopPage" data-icon="back" class="ui-btn-left">戻る</a>            
+            <h1>テンプレート詳細</h1>
+        </header>
+        <section data-role="content">
+            <p1></p1>
+            <h2></h2>
+            <p2></p2>
+            <small></small>
+            <p3></p3>
+            <p4></p4>
+        </section>
+        <footer data-role="footer" data-position="fixed" data-theme="c">
+            <h3></h3>
+            <!--(8) ★ Ｅメール作成ボタン-->
+            <!--↓この間に記入↓-->
+    		
+    		<!--↑この間に記入↑-->
+
+        </footer>        
+    </div>
+    
+</body>
+</html>
