@@ -1,3 +1,11 @@
+/*
+ * EmailTemplateApp v1.0.0
+ * https://goo.gl/HlnGhk
+ *
+ * Date: 2016-1-14
+ */
+
+
 //// (2)★mBaaSの２つのAPIキーの設定
 var APPLICATION_KEY ="YOUR_NCMB_APPLICATION_KEY";
 var CLIENT_KEY ="YOUR_NCMB_CLIENT_KEY";

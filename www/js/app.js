@@ -1,3 +1,11 @@
+/*
+ * EmailTemplateApp v1.0.0
+ * https://goo.gl/HlnGhk
+ *
+ * Date: 2016-1-14
+ */
+
+
 ///// 新規登録
 function onRegisterBtn(){
     //入力フォームからusername, password変数にセット
